@@ -1,0 +1,9 @@
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\bin\Debug\MyAsteroid.exe.config
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\bin\Debug\MyAsteroid.exe
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\bin\Debug\MyAsteroid.pdb
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\obj\Debug\MyAsteroid.csprojAssemblyReference.cache
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\obj\Debug\MyAsteroid.Properties.Resources.resources
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\obj\Debug\MyAsteroid.csproj.GenerateResource.cache
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\obj\Debug\MyAsteroid.csproj.CoreCompileInputs.cache
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\obj\Debug\MyAsteroid.exe
+D:\GeekBrains\C-Level2\MyAsteroid\MyAsteroid\obj\Debug\MyAsteroid.pdb
