@@ -11,7 +11,10 @@ namespace MyAsteroid
     {
         public Asteroid(Point Pos, Point Dir, Size size) : base(Pos, Dir, size)
         {
+            CreateAsteroid?.Invoke($"{DateTime.Now}: Астероид создан");
         }
+
+        Random rnd = new Random();
 
         public override void Draw()
         {
@@ -24,15 +27,22 @@ namespace MyAsteroid
         }
         public override void Update()
         {
-            Pos.X = Pos.X - Dir.X;
-            if (Pos.X < 0) Pos.X = Game.Width + Size.Width;
-            if (Pos.X > Game.Width) Pos.X = Size.Width + Size.Width;
+            //Random rnd = new Random();
+            Pos.X = Pos.X + Dir.X;
+            if (Pos.X < 0 || this == null)
+            {
+                Pos.X = Game.Width + Size.Width;
+                Pos.Y = rnd.Next(100, 800);
+            }
         }
 
         //Метод дляреализации ДЗ №2 пункт 3
         public override void ColUpdate()
         {
-            Pos.X = 800;
+            CollisionAsteroid?.Invoke($"{DateTime.Now}Астероид столкнулся с чем-то");
         }
+
+        public static event Action<string> CreateAsteroid;
+        public static event Action<string> CollisionAsteroid;
     }
 }

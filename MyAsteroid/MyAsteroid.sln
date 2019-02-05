@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAsteroid", "MyAsteroid\MyAsteroid.csproj", "{D944A57D-0509-4F29-BE6A-11C577ECADBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4_HW_ex2", "ConsoleApp1\Lesson4_HW_ex2.csproj", "{06441837-6342-4E3A-B68C-C5D5F006A076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson4_HW_ex3", "Lesson4_HW_ex3\Lesson4_HW_ex3.csproj", "{00660E35-F5B0-46C9-9AC5-8501B5702464}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D944A57D-0509-4F29-BE6A-11C577ECADBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D944A57D-0509-4F29-BE6A-11C577ECADBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D944A57D-0509-4F29-BE6A-11C577ECADBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06441837-6342-4E3A-B68C-C5D5F006A076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06441837-6342-4E3A-B68C-C5D5F006A076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06441837-6342-4E3A-B68C-C5D5F006A076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06441837-6342-4E3A-B68C-C5D5F006A076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00660E35-F5B0-46C9-9AC5-8501B5702464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00660E35-F5B0-46C9-9AC5-8501B5702464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00660E35-F5B0-46C9-9AC5-8501B5702464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00660E35-F5B0-46C9-9AC5-8501B5702464}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

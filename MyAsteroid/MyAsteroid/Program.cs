@@ -16,13 +16,14 @@ namespace MyAsteroid
             {
                 //Width = Screen.PrimaryScreen.Bounds.Width,
                 //Height = Screen.PrimaryScreen.Bounds.Height
-                Width = 900,
-                Height = 900
+                Width = 800,
+                Height = 400
             };
             Game.Init(form);
             form.Show();
             Game.Load();
             Game.Draw();
+            Game.Update();
             Application.Run(form);
 
         }
