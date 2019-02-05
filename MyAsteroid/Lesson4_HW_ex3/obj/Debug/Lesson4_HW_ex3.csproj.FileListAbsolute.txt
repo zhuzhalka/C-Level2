@@ -1,0 +1,6 @@
+D:\GeekBrains\C-Level2\MyAsteroid\Lesson4_HW_ex3\bin\Debug\Lesson4_HW_ex3.exe.config
+D:\GeekBrains\C-Level2\MyAsteroid\Lesson4_HW_ex3\bin\Debug\Lesson4_HW_ex3.exe
+D:\GeekBrains\C-Level2\MyAsteroid\Lesson4_HW_ex3\bin\Debug\Lesson4_HW_ex3.pdb
+D:\GeekBrains\C-Level2\MyAsteroid\Lesson4_HW_ex3\obj\Debug\Lesson4_HW_ex3.csproj.CoreCompileInputs.cache
+D:\GeekBrains\C-Level2\MyAsteroid\Lesson4_HW_ex3\obj\Debug\Lesson4_HW_ex3.exe
+D:\GeekBrains\C-Level2\MyAsteroid\Lesson4_HW_ex3\obj\Debug\Lesson4_HW_ex3.pdb

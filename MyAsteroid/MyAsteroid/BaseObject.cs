@@ -7,11 +7,12 @@ using System.Drawing;
 
 namespace MyAsteroid
 {
-    class BaseObject
+    abstract class BaseObject : ICollision
     {
         protected Point Pos;
         protected Point Dir;
-        protected Size Size;
+        // изменил параметр size на public для того чтобы можно было к нему обращаться из других методов
+        public Size Size;
         public BaseObject(Point pos, Point dir, Size size)
         {
             Pos = pos;
@@ -19,20 +20,26 @@ namespace MyAsteroid
             Size = size;
         }
 
-        public virtual void Draw()
-        {
-            Game.Buffer.Graphics.DrawEllipse(Pens.White, Pos.X, Pos.Y, Size.Width, Size.Height);
-
-        }
+        abstract public void Draw();
+        abstract public void ColUpdate();
 
         public virtual void Update()
         {
+            //урок1
+            //Pos.X = Pos.X + Dir.X;
+            //Pos.Y = Pos.Y + Dir.Y;
+            //if (Pos.X < 0) Dir.X = -Dir.X;
+            //if (Pos.X > Game.Width) Dir.X = -Dir.X;
+            //if (Pos.Y < 0) Dir.Y = -Dir.Y;
+            //if (Pos.Y > Game.Height) Dir.Y = -Dir.Y;
+
+            //урок2
             Pos.X = Pos.X + Dir.X;
-            Pos.Y = Pos.Y + Dir.Y;
-            if (Pos.X < 0) Dir.X = -Dir.X;
-            if (Pos.X > Game.Width) Dir.X = -Dir.X;
-            if (Pos.Y < 0) Dir.Y = -Dir.Y;
-            if (Pos.Y > Game.Height) Dir.Y = -Dir.Y;
+            if (Pos.X < 0) Pos.X = Game.Width + Size.Width;
         }
+
+        public bool Collision(ICollision o) => o.Rect.IntersectsWith(this.Rect);
+        public Rectangle Rect => new Rectangle(Pos, Size);
+        public delegate void Message();
     }
 }

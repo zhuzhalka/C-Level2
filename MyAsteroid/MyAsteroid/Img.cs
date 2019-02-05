@@ -13,10 +13,15 @@ namespace MyAsteroid
         {
         }
 
+        Image ioda = Image.FromFile("ioda.png");
+
         public override void Draw()
         {
-            Image ioda = Image.FromFile("C:\\\\Users\\Konstantin\\source\\repos\\MyAsteroid\\ioda.png");
             Game.Buffer.Graphics.DrawImage(ioda, Pos.X, Pos.Y, Size.Width, Size.Height);
+        }
+        public override void ColUpdate()
+        {
+
         }
     }
 }
