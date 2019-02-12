@@ -1,0 +1,17 @@
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\bin\Debug\MyCompany_WPF.exe.config
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\bin\Debug\MyCompany_WPF.exe
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\bin\Debug\MyCompany_WPF.pdb
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.csprojAssemblyReference.cache
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MainWindow.g.cs
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\App.g.cs
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF_MarkupCompile.cache
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF_MarkupCompile.lref
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MainWindow.baml
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.g.resources
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.Properties.Resources.resources
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.csproj.GenerateResource.cache
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.csproj.CoreCompileInputs.cache
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.exe
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\MyCompany_WPF.pdb
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\AddDepWindow.g.cs
+D:\GeekBrains\C-Level2\MyCompany\MyCompany_WPF\MyCompany_WPF\obj\Debug\AddDepWindow.baml
